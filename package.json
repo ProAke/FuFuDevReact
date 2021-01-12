@@ -1,0 +1,19 @@
+{
+  "name": "fufudevreact",
+  "version": "1.0.0",
+  "description": "SWCMS14 Framework for Dev",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kingeru/FuFuDevReact.git"
+  },
+  "author": "worapot pilabut",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kingeru/FuFuDevReact/issues"
+  },
+  "homepage": "https://github.com/kingeru/FuFuDevReact#readme"
+}
