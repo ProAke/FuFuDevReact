@@ -18,8 +18,7 @@ $tpl->assignInclude("body", "../template/_tp_index.html");
 $tpl->prepare();
 
 
-
-
+$tpl->assign("_ROOT.Header","FuFu Dev");
 
 
 //FRONTPAGESEO("1",$lag);
