@@ -18,7 +18,7 @@ $tpl->assignInclude("body", "../template/_tp_index.html");
 $tpl->prepare();
 
 
-$tpl->assign("_ROOT.Header","FuFu Dev");
+$tpl->assign("_ROOT.Header","FuFu Dev".$strDate);
 
 
 //FRONTPAGESEO("1",$lag);
