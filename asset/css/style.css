@@ -8,16 +8,21 @@ body {
     background-color: #fff
 }
 
+.covid-block {
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
 .block-title-page {
     display: block;
     border-radius: 25px;
-    width: 50%;
+    width: 100%;
     padding: 25px 25px 25px 25px;
-    background-color: #404040;
-    color: white;
+    font-size: 5px;
 }
 
 .block-st-all {
+    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -30,4 +35,16 @@ body {
     -ms-flex-pack: center;
     justify-content: center;
     margin: 20px 0 0;
+}
+
+.card1 {
+    background-color: #404040;
+    color: #fff;
+}
+
+@media only screen and (min-width:290px) and (max-width:767px) {
+    .covid-block {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
 }
