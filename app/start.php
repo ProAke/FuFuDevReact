@@ -18,8 +18,7 @@ $tpl->assignInclude("body", "../template/_tp_index.html");
 $tpl->prepare();
 
 $tpl->assign("_ROOT.Header","FuFu Dev");
-$tpl->assign("_ROOT.Description","วันที่ ".$strDate.
-"<br>พัฒนาขึ้นเพื่อใช้ในการทำงานภายใต้ VPS Live เท่านั้น อัพเดทล่าสุด<br>");
+$tpl->assign("_ROOT.Description","วันที่ ".$strDate."อัพเดทล่าสุด");
 
 
 // DATA from API //////////////////////////
