@@ -1,117 +1,33 @@
-/* Covid 19 theme */
-
-.modal-content {
-    font-family: prompt;
+@import "https://fonts.googleapis.com/css?family=Prompt:300,400,500,600&display=swap";
+body {
+    font-family: 'Prompt';
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: .3px;
+    color: #404040;
+    background-color: #fff
 }
 
-.modal-title {
-    font-size: 36px;
-    color: #000;
+.block-title-page {
+    display: block;
+    border-radius: 25px;
+    width: 50%;
+    padding: 25px 25px 25px 25px;
+    background-color: #404040;
+    color: white;
 }
 
-.modal-dialog {
-    max-width: 640px;
+.block-st-all {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 20px 0 0;
 }
-
-.popup_link a {
-    color: #FFF;
-}
-
-.popup_link a:hover {
-    color: #000;
-}
-
-
-/*font color*/
-
-.mybg0 {
-    background-color: #FFF;
-    color: #000;
-    border: solid 1px #ec008c;
-    border-radius: 8px;
-}
-
-.mybg1,
-.mybg2,
-.mybg3 {
-    color: #FFF;
-    border-radius: 8px;
-    margin-right: 2px;
-    margin-left: 2px;
-    padding-top: 4px;
-    padding-bottom: 2px;
-}
-
-.mybg1 {
-    background-color: #7ec9e1;
-}
-
-
-/* #e17ebe */
-
-.mybg2 {
-    background-color: #449edd;
-}
-
-
-/* #dd449f */
-
-.mybg3 {
-    background-color: #3f51b5;
-}
-
-
-/* #e21689 */
-
-.x1 {
-    margin-left: 2px;
-    margin-bottom: 8px;
-    height: 94px;
-    padding-right: 8px;
-}
-
-.x2 {
-    text-align: right;
-    margin-left: 2px;
-    margin-bottom: 8px;
-    height: 94px;
-    padding-right: 8px;
-}
-
-.x1 div,
-.x2 div {
-    margin-top: 30px;
-}
-
-.txt,
-.txt2 {
-    text-shadow: 1px 2px 2px #000;
-}
-
-.txt {
-    color: #f4ee36;
-}
-
-.txt2 {
-    color: #96deff;
-}
-
-.fs1 {
-    font-size: 2vh;
-}
-
-.fs2 {
-    font-size: 3vh;
-}
-
-.fs2 {
-    font-size: 2.5vh;
-}
-
-.header_blog {
-    padding-top: 8px;
-    padding-bottom: 8px;
-    font-family: prompt;
-}
-
-@media (max-width: 768px) {}

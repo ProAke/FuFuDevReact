@@ -35,6 +35,10 @@ $tpl->newBlock("META");
 $tpl->assign("title", "Fufudev อัพเดทเมื่อ".$UpdateDate);
 $tpl->assign("gotitle", "Fufudev อัพเดทเมื่อ".$UpdateDate);
 
+
+$tpl->assign("add_metag", "<meta http-equiv='refresh' content='5'>");
+
+
 $tpl->assign("_ROOT.Header","FuFu Dev");
 $tpl->assign("_ROOT.Description","วันที่ ".$strDate."อัพเดทล่าสุด");
 
