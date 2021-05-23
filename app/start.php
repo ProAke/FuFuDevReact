@@ -17,9 +17,6 @@ $tpl = new TemplatePower("../template/_tp_main.html");
 $tpl->assignInclude("body", "../template/_tp_index.html");
 $tpl->prepare();
 
-$tpl->assign("_ROOT.Header","FuFu Dev");
-$tpl->assign("_ROOT.Description","วันที่ ".$strDate."อัพเดทล่าสุด");
-
 
 // DATA from API //////////////////////////
 $Confirmed        = $covid19_th->Confirmed;
@@ -33,7 +30,15 @@ $NewDeaths        = $covid19_th->NewDeaths;
 $UpdateDate        = $covid19_th->UpdateDate;
 
 
-///////////////////////////////////////////
+
+$tpl->newBlock("META");
+$tpl->assign("title", "Fufudev อัพเดทเมื่อ".$UpdateDate);
+$tpl->assign("gotitle", "Fufudev อัพเดทเมื่อ".$UpdateDate);
+
+$tpl->assign("_ROOT.Header","FuFu Dev");
+$tpl->assign("_ROOT.Description","วันที่ ".$strDate."อัพเดทล่าสุด");
+
+//////////////////////////////////////////
 $tpl->newBlock("DAYLIREPORT_COVID19TH");
 $tpl->assign("Covid19th_Confirmed", number_format($Confirmed));
 $tpl->assign("Covid19th_Recovered", number_format($Recovered));
