@@ -62,7 +62,7 @@
 <div id="error"></div>
 <script>
     var $container = $("#success");
-    $container.load("rss-feed-data.php");
+    $container.load("https://covid19.th-stat.com/api/open/today");
     var refreshId = setInterval(function() {
         $container.load('https://covid19.th-stat.com/api/open/today');
     }, 9000);
