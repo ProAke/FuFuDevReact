@@ -61,10 +61,9 @@
 <b>Error Response:</b>
 <div id="error"></div>
 <script>
-    $("#success").load("https://covid19.th-stat.com/api/open/today", function(response, status, xhr) {
-        if (status == "error") {
-            var msg = "Sorry but there was an error: ";
-            $("#error").html(msg + xhr.status + " " + xhr.statusText);
-        }
-    });
+    var $container = $("#success");
+    $container.load("rss-feed-data.php");
+    var refreshId = setInterval(function() {
+        $container.load('https://covid19.th-stat.com/api/open/today');
+    }, 9000);
 </script>
