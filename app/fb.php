@@ -1,10 +1,5 @@
 <?php 
 
-
-
-
-
-
 /* PHP SDK v5.0.0 */
 /* make the API call */
 try {
